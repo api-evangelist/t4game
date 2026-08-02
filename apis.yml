@@ -1,7 +1,30 @@
 aid: t4game
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/t4game.png
 name: t4game
-description: t4game is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  t4game (呈天游 / Bstonegames) is the brand of Beijing Chengtian Network Technology
+  Co., Ltd., a Chinese online-game developer and operator founded in 2008 and
+  headquartered in Beijing. The company designs, publishes, and operates mobile,
+  PC, and web-based games — including titles such as 醉江湖online (Drunk Rivers and
+  Lakes Online) and 诛神传奇/诛神online (Zhushen Online) — spanning role-playing,
+  real-time strategy, and shooting genres. Its public presence at t4game.com is a
+  consumer-facing game portal (player login, registration, and recharge), company
+  and culture pages, a product catalog, game/media news, and recruitment listings.
+  It was added to the API Evangelist network as a portfolio company of the venture
+  firm Qiming. As of this enrichment pass the company publishes no public developer
+  program: no developer portal, API reference, OpenAPI/AsyncAPI specification, SDKs,
+  CLI, MCP server, or other machine-readable API surface could be found.
 url: https://raw.githubusercontent.com/api-evangelist/t4game/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +34,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Gaming
+- Video Games
+- Online Games
+- Mobile Games
+- Game Publisher
+- China
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
-  url: https://t4game.com
+  url: http://t4game.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
